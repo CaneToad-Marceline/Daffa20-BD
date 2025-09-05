@@ -21,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #2196F3 0%, #21CBF3 100%);
     position: relative;
 }
 
@@ -44,14 +44,15 @@ body {
 
 .scroll-indicator {
     text-align: center;
-    color: white;
+    color: #ffffff;
     margin-top: 20px;
 }
 
 .scroll-indicator p {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    font-weight: 600;
 }
 
 .bounce-arrow {
@@ -80,7 +81,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 50%, #fd79a8 100%);
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
 }
 
 .birthday-card {
@@ -127,21 +128,21 @@ body {
     top: 20px;
     left: 20px;
     animation-delay: 0s;
-    color: #00d2ff;
+    color: #2196F3;
 }
 
 .balloon-2 {
     top: 30px;
     right: 30px;
     animation-delay: 1s;
-    color: #92fe9d;
+    color: #00BCD4;
 }
 
 .balloon-3 {
     bottom: 30px;
     left: 30px;
     animation-delay: 2s;
-    color: #ff6ec7;
+    color: #E91E63;
 }
 
 .confetti {
@@ -162,21 +163,21 @@ body {
     top: 60px;
     left: 50%;
     animation-delay: 0s;
-    color: #ffb347;
+    color: #FFC107;
 }
 
 .star-2 {
     bottom: 60px;
     right: 50px;
     animation-delay: 1s;
-    color: #00d2ff;
+    color: #2196F3;
 }
 
 .star-3 {
     top: 50%;
     left: 20px;
     animation-delay: 1.5s;
-    color: #92fe9d;
+    color: #00BCD4;
 }
 
 @keyframes float {
@@ -219,15 +220,15 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #00d2ff;
+    color: #1565C0;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .friend-name {
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
-    color: #ff6ec7;
+    color: #E91E63;
     margin-bottom: 30px;
 }
 
@@ -251,7 +252,7 @@ body {
 }
 
 .your-name {
-    color: #00d2ff;
+    color: #1565C0;
     font-weight: 600;
     font-size: 1.2rem;
 }
@@ -273,10 +274,10 @@ body {
 
 .celebration-text {
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-size: 1.3rem;
     font-weight: 600;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     animation: glow 2s ease-in-out infinite alternate;
 }
 
